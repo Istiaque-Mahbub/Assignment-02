@@ -223,6 +223,7 @@ left: 45%;
   }
   .ran-extra-text h3,p{
     margin-top: 1.5rem;
+    color: white;
   }
   .run-extra-image{
     width: 50%;
@@ -246,6 +247,7 @@ margin-top: 2rem;
   .BMI-calculator> h3{
     margin-left: 9em;
     text-align: left;
+    color: white;
 
   }
   .BMI-calculator> p{
@@ -278,6 +280,10 @@ margin-top: 2rem;
   
   .BMI-cal{
     width: 90%;
+   
+  }
+  .BMI-cal h3{
+    color: white;
    
   }
   .BMI-cal input[type="text"] , select{
