@@ -464,12 +464,12 @@ select {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
+
 }
 .contains-grid>h3{
   margin-top: 1rem;
 }
 .contains-grid a{
-  margin-bottom: 2em;
 
   text-decoration: none;
   color: white;
@@ -484,6 +484,7 @@ select {
   
   text-align: center;
   border-radius: 10px;
+  padding-bottom: 2rem;
 }
 
 /* footer section styles */
