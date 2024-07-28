@@ -170,11 +170,18 @@ body {
 
 .video-1 {
   top: 65%;
+  text-align: center;
 }
+
 
 .video-2 {
   top: 30%;
-  left: 62%
+  left: 62%;
+}
+
+.video-2 h2 {
+  font-size: 2rem;
+  color: white;
 }
 
 .bars {
