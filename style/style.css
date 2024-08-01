@@ -682,6 +682,10 @@ select{
 
   /* meet-team section responsive */
 
+  .meet-images{
+    width: 100%;
+    margin: 0 auto;
+  }
   .meet-team{
     width: 98%;
     margin: 0 auto;
@@ -699,6 +703,7 @@ height: auto;
   .meet-team-image img{
     width: 90%;
     margin: 0 auto;
+    margin-left: 10px;
   }
 
   /* our package section responsive */
