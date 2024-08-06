@@ -171,7 +171,21 @@ body {
 .video-1 {
   top: 65%;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
 }
+
+.circle{
+  margin-top: 2rem;
+  margin-left: .5rem;
+  border: 2px solid darkorange;
+  background-color: darkorange;
+  border-radius: 50%;
+  width: 20%;
+  height: 20px;
+}
+
 
 
 .video-2 {
@@ -536,15 +550,6 @@ font-size: 1.2rem;
 
 
 
-
-
-
-
-
-
-
-
-
 /* mobile responsive */
 
 @media screen and (max-width:576px) {
@@ -717,5 +722,8 @@ height: auto;
   /* footer section responsive */
   .footer-text{
     grid-template-columns: 1fr;
+  }
+  .video-1{
+    overflow: hidden;
   }
 }
